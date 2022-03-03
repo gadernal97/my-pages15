@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background: url('../img/ciudad-maderas-MXbM1NrRqtI-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    font-size: 3em;
+    color: white;
+}
+header button{
+     background: transparent;
+     border: black solid 2px;
+     width: 150px;
+     height: 50px;
+     font-size: 20px;
+     color: white;
+}
+.container{
+    display: flex;
+    
+}
+.container img{
+    width: 50%;
+}
+header button:hover{
+    transform: translateY(-2px);
+}
+header button:active{
+    transform: translateY(-4px);
+}
+
+#content img{
+    width: 65%;
+    border-radius: 20px;
+
+}
+.box h2{
+    margin-bottom: 1em;
+}
+.box  p{
+ line-height: 2em;
+ font-size: 1.2em;
+}
+#content button{
+    background: transparent;
+    border:  solid rgb(241, 136, 118) 1px;
+    width: 250px;
+    height: 60px;
+    outline: none;
+}
+#content button:hover{
+    background: tomato;
+}
+#carouselExampleIndicators{
+    max-width: 850px;
+    width: 100%;
+    margin: auto;
+}
+#carouselExampleIndicators  img{
+width: 100%;
+border-radius: 25px;
+margin: auto;
+}
+.box1{
+    width: 580px;
+    height: 580px;
+    padding: 0.90em;
+    margin: auto;
+}
+.box1 p{
+    font-size: 1.2em;
+    line-height: 3em;
+}
+.box1 a{
+    text-decoration: none;
+    color:tomato;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+#btn{
+    width: 145px;
+    height: 45px;
+    background:transparent;
+    border: tomato 2px solid;
+    color: tomato;
+    display: block;
+    margin: auto;
+}
+#btn:hover{
+    background:tomato;
+    color:white;
+}
+footer{
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+@media all and (max-width:976px) {
+    .container{
+        display: block;
+    }
+    .container img{
+        width: 72%;
+        display: block;
+        margin: auto;
+        border-radius: 30px;
+    }
+    button{
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+    .box1 {
+        width: 250px;
+        height: 900px;
+    }
+}
